@@ -1,0 +1,25 @@
+<style lang="less">
+</style>
+<template>
+  <div class="container">
+    Hello world
+  </div>
+  <van-button>测试按钮</van-button>
+</template>
+
+<script>
+  import wepy from '@wepy/core';
+
+  wepy.page({
+    onLoad() {
+      console.log('onLoad')
+    }
+  });
+</script>
+<config>
+{
+  usingComponents: {
+    'van-button': 'module:vant-weapp/dist/button/index'
+  }
+}
+</config>

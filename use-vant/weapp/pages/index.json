@@ -1,0 +1,6 @@
+{
+    "component": true,
+    "usingComponents": {
+        "van-button": "./../$vendor/_vant-weapp@0.5.28@vant-weapp/dist/button/index"
+    }
+}

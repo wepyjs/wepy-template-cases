@@ -1,0 +1,5 @@
+
+<view class="container">
+  Hello world
+</view>
+<van-button bind_init="__initComponent">测试按钮</van-button>
