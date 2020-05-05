@@ -8,4 +8,4 @@ _core["default"].page({
   onLoad: function onLoad() {
     console.log('onLoad');
   }
-}, {info: {"components":{"van-button":{"path":"./../$vendor/vant-weapp/dist/button/index"}},"on":{}}, handlers: {}, models: {}, refs: undefined });
+}, {info: {"components":{"van-button":{"path":"./../$vendor/@vant/weapp/dist/button/index"}},"on":{}}, handlers: {}, models: {}, refs: undefined });

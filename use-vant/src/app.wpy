@@ -13,7 +13,8 @@ wepy.app({
 <config>
 {
     pages: [
-      'pages/index'
+      'pages/index',
+      'pages/new'
     ],
     window: {
       backgroundTextStyle: 'light',

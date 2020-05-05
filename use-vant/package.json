@@ -11,11 +11,13 @@
   "author": "Gcaufy <gcaufy@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@vant/weapp": "^1.2.2",
     "@wepy/core": "^2.0.0-alpha.16",
     "vant-weapp": "^0.5.28"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.9.6",
+    "@wepy/cli": "^2.0.0-alpha.20",
     "@wepy/compiler-babel": "^2.0.5",
     "@wepy/compiler-less": "^2.0.0",
     "babel-eslint": "^7.2.1",
