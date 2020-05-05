@@ -1,0 +1,6 @@
+
+  <view class="container">
+    Hello world
+  </view>
+
+<van-picker bind_init="__initComponent" columns="{{ columns }}" data-wpy-evt="3-0" bind:change="__dispatcher"></van-picker>

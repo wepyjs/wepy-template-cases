@@ -1,6 +1,7 @@
 {
     "pages": [
         "pages/index",
+        "pages/other",
         "pages/new"
     ],
     "window": {

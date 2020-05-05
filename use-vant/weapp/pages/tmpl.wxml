@@ -1,0 +1,5 @@
+<template name="tmpl">
+  <view>
+   This is from template
+  </view>
+</template>

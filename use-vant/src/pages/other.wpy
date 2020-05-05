@@ -1,0 +1,37 @@
+<style lang="less">
+</style>
+<template>
+  <div class="container">
+    Hello world
+  </div>
+
+<van-picker columns="{{ columns }}" bind:change="onChange" />
+</template>
+
+<script>
+  import wepy from '@wepy/core';
+
+  wepy.page({
+    data: {
+      columns: ['杭州', '宁波', '温州', '嘉兴', '湖州']
+    },
+    methods: {
+      onChange(wepyevent) {
+        const event = wepyevent.$wx; 
+        const { picker, value, index } = event.detail;
+        console.log(`当前值：${value}, 当前索引：${index}`);
+      }
+    },
+    onLoad() {
+      console.log('onLoad')
+    }
+  });
+</script>
+<config>
+{
+  usingComponents: {
+    'van-popup': 'module:@vant/weapp/dist/popup/index',
+    'van-picker': 'module:@vant/weapp/dist/picker/index'
+  }
+}
+</config>
